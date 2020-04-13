@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>sample5 &middot; My New Hugo Site</title>
+		<title>勉強したこと &middot; My New Hugo Site</title>
 
 		
   		<link rel="stylesheet" href="/css/style.css">
@@ -41,14 +41,24 @@
         <br>
         <span>on&nbsp;</span><time datetime="2020-04-13 10:54:12 &#43;0900 JST">April 13, 2020</time>
 </div>
-		<h1 class="post-title">sample5</h1>
+		<h1 class="post-title">勉強したこと</h1>
 <div class="post-line"></div>
 
 		
 
 		<h2 id="hugoの使い方">hugoの使い方</h2>
-<p>$ hugo new post/ファイル名.md</p>
+<p>/site-demo内で
+$ hugo new post/ファイル名.md</p>
 <p>このコマンドでcontent内postにmdファイルができる。</p>
+<p>hugoコマンドを打つ時は、/site-demo内で行う。</p>
+<p>そうすると、/content/post/ファイル名.mdが変換されて、/public/post内にindex.htmlファイルが生成される。</p>
+<h2 id="git-コマンド">git コマンド</h2>
+<p>$ git add . を/publicにいる時に行うと、ステージにのる。</p>
+<p>その状態で $ git commit -m &ldquo;コメント&rdquo;　を打つと、logに残る。</p>
+<p>これはあとで見返すことができる。</p>
+<p>そして $ git push すると、リポジトリ内に自分の変更した内容などがpushされる。</p>
+<h2 id="etc">etc</h2>
+<p>あとは様々な仕様や、どういう仕組みでサイトが出来上がっているかなど、教えてもらった。</p>
 
 
 		
@@ -64,7 +74,7 @@
 
         		<footer>
 			<span>
-			&copy; <time datetime="2020-04-13 11:23:41.206208 &#43;0900 JST m=&#43;0.132523192">2020</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2020-04-13 12:22:31.525949 &#43;0900 JST m=&#43;0.265133213">2020</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 

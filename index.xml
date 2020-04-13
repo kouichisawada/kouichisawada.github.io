@@ -12,13 +12,20 @@
     
     
     <item>
-      <title>sample5</title>
+      <title>勉強したこと</title>
       <link>http://kouichisawada.github.io/post/sample5/</link>
       <pubDate>Mon, 13 Apr 2020 10:54:12 +0900</pubDate>
       
       <guid>http://kouichisawada.github.io/post/sample5/</guid>
-      <description>hugoの使い方 $ hugo new post/ファイル名.md
-このコマンドでcontent内postにmdファイルができる。</description>
+      <description>hugoの使い方 /site-demo内で $ hugo new post/ファイル名.md
+このコマンドでcontent内postにmdファイルができる。
+hugoコマンドを打つ時は、/site-demo内で行う。
+そうすると、/content/post/ファイル名.mdが変換されて、/public/post内にindex.htmlファイルが生成される。
+git コマンド $ git add . を/publicにいる時に行うと、ステージにのる。
+その状態で $ git commit -m &amp;ldquo;コメント&amp;rdquo;　を打つと、logに残る。
+これはあとで見返すことができる。
+そして $ git push すると、リポジトリ内に自分の変更した内容などがpushされる。
+etc あとは様々な仕様や、どういう仕組みでサイトが出来上がっているかなど、教えてもらった。</description>
     </item>
     
     <item>
@@ -27,27 +34,27 @@
       <pubDate>Mon, 13 Apr 2020 00:26:18 +0900</pubDate>
       
       <guid>http://kouichisawada.github.io/post/sample4/</guid>
-      <description>練習 ブログの練習をしています、
-天気 外は気温が低く、雨が降っている。
- 勉強しなければいけないもの  markdawnの練習 ブログ    </description>
+      <description>メモ ブログの練習をしています。
+天気 外は気温が低く、雨が降ってる。
+ 勉強しなければいけないもの  markdawnの練習 ブログ HTML CSS JS コマンドを覚える vscodeの使い方    </description>
     </item>
     
     <item>
-      <title>New</title>
+      <title>練習</title>
       <link>http://kouichisawada.github.io/post/new/</link>
       <pubDate>Sun, 12 Apr 2020 23:40:33 +0900</pubDate>
       
       <guid>http://kouichisawada.github.io/post/new/</guid>
-      <description>edit </description>
+      <description>練習 gitの使い方や、hugoの使い方の練習のために、ブログ内の記事を変更。</description>
     </item>
     
     <item>
-      <title>Sample2</title>
+      <title>ブログ始めてみました</title>
       <link>http://kouichisawada.github.io/post/sample2/</link>
       <pubDate>Sun, 12 Apr 2020 23:33:18 +0900</pubDate>
       
       <guid>http://kouichisawada.github.io/post/sample2/</guid>
-      <description>sample2 blog start edit</description>
+      <description>sample2 プログラム関係の勉強始めてみました。 学んだことなど、書いていくかと思います。</description>
     </item>
     
   </channel>
