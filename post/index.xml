@@ -17,8 +17,7 @@
       <pubDate>Mon, 13 Apr 2020 10:54:12 +0900</pubDate>
       
       <guid>http://kouichisawada.github.io/post/sample5/</guid>
-      <description>##hugoの使い方
-$ hugo new post/ファイル名.md
+      <description>hugoの使い方 $ hugo new post/ファイル名.md
 このコマンドでcontent内postにmdファイルができる。</description>
     </item>
     
