@@ -6,10 +6,21 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2020 22:53:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 23:53:31 +0900</lastBuildDate>
     
 	<atom:link href="http://kouichisawada.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GW</title>
+      <link>http://kouichisawada.github.io/post/gw/</link>
+      <pubDate>Tue, 05 May 2020 23:53:31 +0900</pubDate>
+      
+      <guid>http://kouichisawada.github.io/post/gw/</guid>
+      <description>#GW
+GW中にJavaScriptの勉強を一通り終わらせてしまいたいと思っています。
+*他にやること *課題 *Googleデジタルワークショップ *簿記の勉強etc</description>
+    </item>
     
     <item>
       <title>4/13</title>
